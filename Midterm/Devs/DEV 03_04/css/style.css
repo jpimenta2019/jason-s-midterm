@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body {
+  background-color: #FFE0B2;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#header {
+  padding: 0px; margin: 0px;
+  height: 75px;
+  width: 100%;
+  background-color: #0D47A1;
+  color:#000;
+  font-family: Montserrat;
+  text-align: right;
+  font-weight: bold;
+  position: fixed;
+  top: 8px; left: 0px;
+  z-index: 0;
+}
+
+#logo {
+  z-index: 1000;
+  color: #FFEA00;
+  font-weight: bold;
+  height: 90px;
+  width: 90px;
+  display: inline-block;
+  background-color:#E53935 ;
+  border-radius: 90px;
+  position: fixed;
+  top: 7px;
+  left: 7px;
+}
+
+#logo>p {
+  padding: 0px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#content{
+  color: #000;
+  padding-top: 75px;
+  height: 1000px;
+}
+
+.first-row {
+  width: 30%;
+  height: 150px;
+  background-color:#FFC107;
+  font-family: Montserrat;
+  float: left;
+  margin: 10px;
+}
+#Help-Box{
+  height: 50px;
+  width: 75px;
+  background-color: #0D47A1;
+  color: #BF360C;
+  font-family: Montserrat;
+  font-weight: bold;
+  position: fixed;
+  bottom: 30%; 
+  right: 0px;
+}
+#Chat-Box{
+  height: 50px;
+  width: 75px;
+  background-color:#0D47A1;
+  color: #BF360C;
+  font-family: Montserrat;
+  font-weight: bold;
+  position: fixed;
+  bottom: 15%; 
+  right: 0px;
+}
+
+#footer{
+  height: 80px;
+  border-top: dashed 1px #000;
+  position: relative;
+  bottom: -20%; 
+  left: 10px;
+  text-align: left;
+}
+
